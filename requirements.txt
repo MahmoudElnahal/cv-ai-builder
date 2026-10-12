@@ -1,0 +1,29 @@
+streamlit==1.36.0
+pydantic==2.6.4
+pandas==2.2.2
+numpy==1.26.4
+
+# PDFs
+PyMuPDF==1.24.10
+pdfplumber==0.11.2
+pypdf==4.3.1
+
+# DOCX/PDF export
+python-docx==1.1.2
+reportlab==4.2.0
+
+# AI/LLMs
+openai==1.40.0
+tiktoken==0.7.0
+
+# Embeddings & Vector
+scikit-learn==1.4.2
+
+# Utils
+python-dotenv==1.0.1
+regex==2024.5.15
+
+# --- FastAPI Core ---
+fastapi==0.115.0
+uvicorn==0.30.6
+python-multipart==0.0.9
