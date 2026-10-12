@@ -61,11 +61,16 @@ streamlit run app.py
 
 ## 📋 Features
 
-- ✅ AI-powered CV generation
-- ✅ Smart content optimization
-- ✅ Professional templates
-- ✅ Real-time preview
-- ✅ Export to PDF
+| Page | What it does |
+|---|---|
+| 🧪 **ATS Scoring** | Scores a CV against a job description and explains the gaps |
+| 🧰 **CV Update** | Rewrites and tightens an existing CV |
+| ✨ **New CV Builder** | Builds a CV from scratch using professional templates |
+| 🤖 **AI Tools Lab** | Standalone AI helpers for summaries, bullets and skills |
+| 📊 **Reports Dashboard** | Overview of scored and processed CVs |
+| ⚙️ **Settings** | Model and API configuration |
+
+Exports to PDF and DOCX. A FastAPI backend (`backend/`) exposes the PDF analysis for integration.
 
 ---
 
